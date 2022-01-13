@@ -3,6 +3,7 @@ pkgs.mkShell {
   name = "rust-wasm-demo";
   buildInputs = with pkgs; [
     wasm-pack
+    wabt
     rustup
     rust-analyzer
 
